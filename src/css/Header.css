@@ -1,0 +1,53 @@
+header{
+    padding: 0;
+    margin: 0;
+}
+
+.header-photo{
+    background-color: red;
+    height: 320px;
+    background-image: url('../assets/profile.jpeg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: circle(150px);
+}
+.basic-info h2{
+    padding: 0;
+    margin: 0;
+}
+.basic-info h3{
+    padding: 0;
+    margin: 0;
+}
+
+.contact-header{
+    text-align: center;
+}
+
+.contact-info{
+    width: 6rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas:
+    "icon1 icon2"
+    "mail linkedin"
+    ;
+    gap: 0 2rem;
+    margin: 0 auto 0 auto;
+}
+.mail-icon{
+    grid-area: icon1;
+    font-size: 2rem;
+    color: rgb(145, 117, 248);
+    
+}
+.linkedin-icon{
+    grid-area: icon2;
+    font-size: 2rem;
+    color: rgb(145, 117, 248);
+}
+.contact-info p{
+    font-size: small;
+}
