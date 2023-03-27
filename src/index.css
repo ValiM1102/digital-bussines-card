@@ -13,8 +13,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background:#1e1e24 ;
+}
+body::-webkit-scrollbar-thumb {
+  background: #704ef8;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
 
 
 @media (prefers-color-scheme: light) {
@@ -29,3 +46,4 @@
     background-color: #f9f9f9;
   }
 }
+

@@ -4,13 +4,13 @@ header{
 }
 
 .header-photo{
-    background-color: red;
-    height: 320px;
+    background-color: rgb(145, 117, 248);
+    height: 150px;
     background-image: url('../assets/profile.jpeg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    clip-path: circle(150px);
+    clip-path: circle(4.2rem);
 }
 .basic-info h2{
     padding: 0;
@@ -26,25 +26,12 @@ header{
 }
 
 .contact-info{
-    width: 6rem;
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-areas:
-    "icon1 icon2"
-    "mail linkedin"
-    ;
-    gap: 0 2rem;
-    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
-.mail-icon{
-    grid-area: icon1;
-    font-size: 2rem;
-    color: rgb(145, 117, 248);
-    
-}
-.linkedin-icon{
-    grid-area: icon2;
+.icons{
     font-size: 2rem;
     color: rgb(145, 117, 248);
 }

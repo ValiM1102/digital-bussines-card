@@ -12,10 +12,18 @@ function Header(){
             </div>
             <h3 className='contact-header'>Contact:</h3>
             <div className="contact-info">
-                <i className="fa-sharp fa-regular fa-envelope mail-icon"></i>
-                <p>Mail</p>
-                <i className="fa-brands fa-linkedin-in linkedin-icon"></i>
-                <p>LinkedIn</p>
+                <div>
+                    <i className="fa-sharp fa-regular fa-envelope icons"></i>
+                    <p>Mail</p>
+                </div>
+                <div>
+                    <i className="fa-brands fa-linkedin-in icons"></i>
+                    <p>LinkedIn</p>
+                </div>
+                <div>
+                    <i className="fa-solid fa-phone icons"></i>
+                    <p>Phone</p>
+                </div>
             </div>
 
         </header>
